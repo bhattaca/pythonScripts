@@ -1,6 +1,7 @@
 #!/usr/bin/python
 '''
 Merge Test , Reliable gradienents test.
+
 '''
 import subprocess as proc
 import sys as sys
@@ -27,7 +28,7 @@ mergesharpTests=[]
 computeGradTests=[]
 
 ######################################################################
-#TESTS
+#	TESTS
 ######################################################################
 
 mergesharp = ['E:\Programs\Win\stdAlone\mergesharp_bin\Release\mergesharp.exe','-trimesh', '-max_grad_dist', '4',
