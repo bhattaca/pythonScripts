@@ -1,0 +1,189 @@
+Arguments: 
+File name 1: cubeA.4.original.out.off
+File name 2: cubeA.4.angle_diff.out.off
+Epsilon neighborhood: 1
+Delta edge length: 4
+Creating histogram of number of simplices: 1
+Creating histogram of area of simplices: 1
+Printing area of simplices under cutoff: 7.5
+File name prefix: cubeA.4.angle_diff.
+Size of simplices 1: 252
+Size of simplices 2: 252
+
+Average area of the segmented triangles in surface 1 is: 1.52381
+Average edge length of the segmented triangles in surface 1 is: 2.33759
+Number of segmented triangles in surface 1 is: 252
+Edge length of surface 1 regular grid: 0.5
+Average number of boxes intersected in surface 1: 20.2381
+
+Average area of the segmented triangles in surface 2 is: 1.52381
+Average edge length of the segmented triangles in surface 2 is: 2.32143
+Number of segmented triangles in surface 2 is: 252
+Edge length of surface 2 regular grid: 0.5
+Average number of boxes intersected in surface 2: 20.0476
+
+1 of the area (384/384) is below the cutoff of 7.5.
+1 of the area (384/384) is below the cutoff of 7.5.
+Maximum of minimum angles: 0
+Arguments: 
+File name 1: cubeB.4.original.out.off
+File name 2: cubeB.4.angle_diff.out.off
+Epsilon neighborhood: 1
+Delta edge length: 4
+Creating histogram of number of simplices: 1
+Creating histogram of area of simplices: 1
+Printing area of simplices under cutoff: 7.5
+File name prefix: cubeB.4.angle_diff.
+Size of simplices 1: 324
+Size of simplices 2: 508
+
+Average area of the segmented triangles in surface 1 is: 1.11966
+Average edge length of the segmented triangles in surface 1 is: 2.0837
+Number of segmented triangles in surface 1 is: 342
+Edge length of surface 1 regular grid: 0.5
+Average number of boxes intersected in surface 1: 20.7593
+
+Average area of the segmented triangles in surface 2 is: 0.712702
+Average edge length of the segmented triangles in surface 2 is: 1.74585
+Number of segmented triangles in surface 2 is: 508
+Edge length of surface 2 regular grid: 0.5
+Average number of boxes intersected in surface 2: 15.9213
+
+0.988861 of the area (378.657/382.923) is below the cutoff of 7.5.
+0.873393 of the area (316.214/362.053) is below the cutoff of 7.5.
+Maximum of minimum angles: 45.0015
+Arguments: 
+File name 1: cubeC.4.original.out.off
+File name 2: cubeC.4.angle_diff.out.off
+Epsilon neighborhood: 1
+Delta edge length: 4
+Creating histogram of number of simplices: 1
+Creating histogram of area of simplices: 1
+Printing area of simplices under cutoff: 7.5
+File name prefix: cubeC.4.angle_diff.
+Size of simplices 1: 450
+Size of simplices 2: 792
+
+Average area of the segmented triangles in surface 1 is: 0.810127
+Average edge length of the segmented triangles in surface 1 is: 1.76082
+Number of segmented triangles in surface 1 is: 474
+Edge length of surface 1 regular grid: 0.5
+Average number of boxes intersected in surface 1: 21.6178
+
+Average area of the segmented triangles in surface 2 is: 0.445421
+Average edge length of the segmented triangles in surface 2 is: 1.34278
+Number of segmented triangles in surface 2 is: 804
+Edge length of surface 2 regular grid: 0.5
+Average number of boxes intersected in surface 2: 13.5417
+
+0.984295 of the area (377.97/384) is below the cutoff of 7.5.
+0.743005 of the area (266.084/358.119) is below the cutoff of 7.5.
+Maximum of minimum angles: 58.4101
+Arguments: 
+File name 1: flangeA.4.original.out.off
+File name 2: flangeA.4.angle_diff.out.off
+Epsilon neighborhood: 1
+Delta edge length: 4
+Creating histogram of number of simplices: 1
+Creating histogram of area of simplices: 1
+Printing area of simplices under cutoff: 7.5
+File name prefix: flangeA.4.angle_diff.
+Size of simplices 1: 14024
+Size of simplices 2: 13476
+
+Average area of the segmented triangles in surface 1 is: 0.631179
+Average edge length of the segmented triangles in surface 1 is: 1.57138
+Number of segmented triangles in surface 1 is: 14024
+Edge length of surface 1 regular grid: 0.5
+Average number of boxes intersected in surface 1: 12.433
+
+Average area of the segmented triangles in surface 2 is: 0.653314
+Average edge length of the segmented triangles in surface 2 is: 1.61396
+Number of segmented triangles in surface 2 is: 13548
+Edge length of surface 2 regular grid: 0.5
+Average number of boxes intersected in surface 2: 12.9408
+
+0.994785 of the area (8805.49/8851.66) is below the cutoff of 7.5.
+0.990813 of the area (8769.79/8851.1) is below the cutoff of 7.5.
+Maximum of minimum angles: 20.8357
+Arguments: 
+File name 1: flangeB.4.original.out.off
+File name 2: flangeB.4.angle_diff.out.off
+Epsilon neighborhood: 1
+Delta edge length: 4
+Creating histogram of number of simplices: 1
+Creating histogram of area of simplices: 1
+Printing area of simplices under cutoff: 7.5
+File name prefix: flangeB.4.angle_diff.
+Size of simplices 1: 16156
+Size of simplices 2: 21916
+
+Average area of the segmented triangles in surface 1 is: 0.548941
+Average edge length of the segmented triangles in surface 1 is: 1.40996
+Number of segmented triangles in surface 1 is: 16204
+Edge length of surface 1 regular grid: 0.5
+Average number of boxes intersected in surface 1: 14.189
+
+Average area of the segmented triangles in surface 2 is: 0.394658
+Average edge length of the segmented triangles in surface 2 is: 1.19819
+Number of segmented triangles in surface 2 is: 21968
+Edge length of surface 2 regular grid: 0.5
+Average number of boxes intersected in surface 2: 10.9781
+
+0.990879 of the area (8813.9/8895.03) is below the cutoff of 7.5.
+0.888021 of the area (7699.01/8669.85) is below the cutoff of 7.5.
+Maximum of minimum angles: 55.8703
+Arguments: 
+File name 1: TwocubeA.4.original.out.off
+File name 2: TwocubeA.4.angle_diff.out.off
+Epsilon neighborhood: 1
+Delta edge length: 4
+Creating histogram of number of simplices: 1
+Creating histogram of area of simplices: 1
+Printing area of simplices under cutoff: 7.5
+File name prefix: TwocubeA.4.angle_diff.
+Size of simplices 1: 504
+Size of simplices 2: 504
+
+Average area of the segmented triangles in surface 1 is: 1.52381
+Average edge length of the segmented triangles in surface 1 is: 2.30931
+Number of segmented triangles in surface 1 is: 504
+Edge length of surface 1 regular grid: 0.5
+Average number of boxes intersected in surface 1: 19.9048
+
+Average area of the segmented triangles in surface 2 is: 1.52381
+Average edge length of the segmented triangles in surface 2 is: 2.30931
+Number of segmented triangles in surface 2 is: 504
+Edge length of surface 2 regular grid: 0.5
+Average number of boxes intersected in surface 2: 19.9048
+
+1 of the area (768/768) is below the cutoff of 7.5.
+1 of the area (768/768) is below the cutoff of 7.5.
+Maximum of minimum angles: 0
+Arguments: 
+File name 1: TwocubeB.4.original.out.off
+File name 2: TwocubeB.4.angle_diff.out.off
+Epsilon neighborhood: 1
+Delta edge length: 4
+Creating histogram of number of simplices: 1
+Creating histogram of area of simplices: 1
+Printing area of simplices under cutoff: 7.5
+File name prefix: TwocubeB.4.angle_diff.
+Size of simplices 1: 950
+Size of simplices 2: 1512
+
+Average area of the segmented triangles in surface 1 is: 0.758133
+Average edge length of the segmented triangles in surface 1 is: 1.6943
+Number of segmented triangles in surface 1 is: 1010
+Edge length of surface 1 regular grid: 0.5
+Average number of boxes intersected in surface 1: 19.9716
+
+Average area of the segmented triangles in surface 2 is: 0.454457
+Average edge length of the segmented triangles in surface 2 is: 1.38665
+Number of segmented triangles in surface 2 is: 1584
+Edge length of surface 2 regular grid: 0.5
+Average number of boxes intersected in surface 2: 14.1746
+
+0.986355 of the area (755.266/765.714) is below the cutoff of 7.5.
+0.67479 of the area (485.755/719.86) is below the cutoff of 7.5.
+Maximum of minimum angles: 45.9387

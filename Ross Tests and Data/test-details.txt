@@ -1,0 +1,7 @@
+1,1,cubeA
+1,1,cubeB
+1,1,cubeC
+1,1,flangeA
+1,1,flangeB
+1,1,TwocubeA
+1,1,TwocubeB
