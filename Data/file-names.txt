@@ -1,0 +1,5 @@
+flangeA.nrrd
+flangeB.nrrd
+cubeA.nrrd
+cubeB.nrrd
+cubeC.nrrd
