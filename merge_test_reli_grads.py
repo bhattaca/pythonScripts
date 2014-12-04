@@ -7,7 +7,9 @@ import subprocess as proc
 import sys as sys
 import os
 
-#configurations
+#user input.
+mergesharp_loc =  'E:\Programs\Win\stdAlone\mergesharp_bin\Release\mergesharp.exe'
+computegrad_loc = 'E:\Programs\Win\stdAlone\\religrad_bin\\Release\\religrad.exe'
 
 #setup isovalues
 isoval_opts =['4.1']
@@ -16,6 +18,7 @@ isoval_opts =['4.1']
 fread = open ('./file-names.txt','r') # contains the names of the files on which the test is run
 fedgecount = open ('./edge-count.txt','w') # stores the edge count values
 ftestdetails = open ('./test-details.txt','w') # stores deatails of the test runs
+
 
 
 
@@ -32,18 +35,19 @@ computeGradTests=[]
 ######################################################################
 
 
-mergesharp = ['E:\Programs\Win\stdAlone\mergesharp_bin\Release\mergesharp.exe','-trimesh', '-max_grad_dist', '4',
+
+mergesharp = [ mergesharp_loc,'-trimesh', '-max_grad_dist', '4',
               '-gradS_offset', '1', '-max_dist', '1.0', '-position', 'gradBIES', '-map_extended' ]
 mergesharpTests.append(mergesharp)
 ######################################################################
 #COMPUTE GRAD TESTS
 ######################################################################
 
-computeGrad = ['E:\Programs\Win\stdAlone\\religrad_bin\\Release\\religrad.exe',  '-angle_test',  '-scalar_test']
+computeGrad = [computegrad_loc,  '-angle_test',  '-scalar_test']
 computeGradTests.append(computeGrad)
 
-#computeGrad = ['E:\Programs\Win\stdAlone\\religrad_bin\\Release\\religrad.exe',  '-curvature_based']
-#computeGradTests.append(computeGrad)
+computeGrad = ['E:\Programs\Win\stdAlone\\religrad_bin\\Release\\religrad.exe',  '-curvature_based']
+computeGradTests.append(computeGrad)
 
 '''
 #test1
@@ -186,7 +190,6 @@ def main():
         for mt in mergesharpTests:
            # print iso
             print ("\nstatus: in function MAIN\n ", mt, g)
-            #print >>ftestdetails, iso
             #test__grad(n, m, g, mt) 
             m=m+1
         n=n+1;
