@@ -10,6 +10,9 @@ import os
 #user input.
 mergesharp_loc =  'E:\Programs\Win\stdAlone\mergesharp_bin\Release\mergesharp.exe'
 computegrad_loc = 'E:\Programs\Win\stdAlone\\religrad_bin\\Release\\religrad.exe'
+findsharp_windows = ['E:\\Programs\Win\\stdAlone\\findsharp_bin\\Debug\\findsharp.exe','140']
+countdegree_windows =['E:\\Programs\Win\\stdAlone\\count_degree_bin\\Debug\\countdegree.exe', '-fshort','-e']
+
 
 #setup isovalues
 isoval_opts =['4.1']
@@ -46,7 +49,7 @@ mergesharpTests.append(mergesharp)
 computeGrad = [computegrad_loc,  '-angle_test',  '-scalar_test']
 computeGradTests.append(computeGrad)
 
-computeGrad = ['E:\Programs\Win\stdAlone\\religrad_bin\\Release\\religrad.exe',  '-curvature_based']
+computeGrad = [computegrad_loc,  '-curvature_based', '-angle', '5', '-neighbor_angle', '20']
 computeGradTests.append(computeGrad)
 
 '''
@@ -75,8 +78,7 @@ mergesharpTests.append(mergesharp)
 
 #######################################################################
                         
-findsharp_windows = ['E:\\Programs\Win\\stdAlone\\findsharp_bin\\Debug\\findsharp.exe','140']
-countdegree_windows =['E:\\Programs\Win\\stdAlone\\count_degree_bin\\Debug\\countdegree.exe', '-fshort','-e']
+
 
 '''
 for each file run mergesharp with correct gradients
@@ -179,18 +181,18 @@ def main():
     print ("status: start test1")
     n=1
     m=1
-	
+    #perfect gradient	
     for mt in mergesharpTests:
         test_correct_grad(m,mt)
         m=m+1
-        
+    #computed gradients    
     for g in computeGradTests:
         #ms
         m=1
         for mt in mergesharpTests:
            # print iso
             print ("\nstatus: in function MAIN\n ", mt, g)
-            #test__grad(n, m, g, mt) 
+            test__grad(n, m, g, mt) 
             m=m+1
         n=n+1;
 if __name__ == "__main__":
