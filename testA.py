@@ -1,7 +1,11 @@
 #!/usr/bin/python
 
+'''
+MergeSharp tests
+'''
 
 ##sample runs
+## python C:\Users\bhattaca\Documents\GitHub\pythonScripts\testA.py -i A.nrrd --iso 3.1 --gradient A.grad.nrrd
 ##E:\Data\heinzl\ieeevis2015Tests\crops\toDelete>python C:\Users\bhattaca\Documents\GitHub\pythonScripts\testA.py
 ## --ifile ..\160uCT.crop1.nhdr --iso 10000 -p test10000  --gradient test10000.grad.nrrd
 ##E:\Data\heinzl\ieeevis2015Tests\crops\toDelete>python C:\Users\bhattaca\Documents\GitHub\pythonScripts\testA.py
@@ -11,9 +15,6 @@ import sys
 import subprocess as proc
 print ("Hello, Python!")
 
-'''
-MergeSharp tests
-'''
 
 #argument1 = isovalue
 #argument2 = dataset
@@ -61,7 +62,8 @@ def run_computegrad(inputfile, prefix):
 #Run mergesharp
 def run_mergesharp(inputfile, isovalue, prefix):
     mergesharp_loc =  'E:\Programs\Win\stdAlone\mergesharp_bin\Release\mergesharp.exe'
-    mergesharp =  [ mergesharp_loc,'-trimesh','-max_grad_dist', '4', '-out_isovert','edge','all','-gradS_offset', '0.2', '-position', 'gradBIES', '-map_extended' ] 
+    mergesharp =  [ mergesharp_loc,'-trimesh','-max_grad_dist', '4',\
+                    '-out_isovert','edge','all','-gradS_offset', '0.2', '-position', 'gradBIES', '-map_extended' ] 
     mergesharp.append('-o')
     if(prefix == ""):
         outoff = "out.off"
@@ -80,7 +82,7 @@ def run_mergesharp(inputfile, isovalue, prefix):
     mergesharp.append(isovalue)
     mergesharp.append(inputfile)
     print( 'RUN : ', ' '.join(mergesharp))
-    proc.check_call(mergesharp)
+    #proc.check_call(mergesharp)
 
 #Run mergesharp with pre computed gradient
 def run_mergesharp_precompGrad(inputfile, isovalue, prefix, gradientf):
